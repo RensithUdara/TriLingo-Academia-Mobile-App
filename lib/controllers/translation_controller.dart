@@ -1,8 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:uuid/uuid.dart';
+
 import '../models/translation_model.dart';
-import '../services/translation_service.dart';
 import '../services/database_service.dart';
+import '../services/translation_service.dart';
 
 class TranslationController extends ChangeNotifier {
   final TranslationService _translationService = TranslationService();
@@ -42,7 +43,7 @@ class TranslationController extends ChangeNotifier {
       notifyListeners();
 
       _translations = await _databaseService.getTranslations(limit: 50);
-      
+
       _isLoading = false;
       notifyListeners();
     } catch (e) {
@@ -65,15 +66,15 @@ class TranslationController extends ChangeNotifier {
   // Set input text
   void setInput(String input) {
     _currentInput = input;
-    
+
     // Auto-detect language
     if (input.isNotEmpty) {
       _sourceLanguage = _translationService.detectLanguage(input);
     }
-    
+
     // Get suggestions
     _suggestions = _translationService.getSuggestions(input, _sourceLanguage);
-    
+
     notifyListeners();
   }
 
@@ -128,13 +129,13 @@ class TranslationController extends ChangeNotifier {
 
       // Save to database
       await _databaseService.insertTranslation(translation);
-      
+
       // Add to local list
       _translations.insert(0, translation);
-      
+
       _isLoading = false;
       notifyListeners();
-      
+
       return translation;
     } catch (e) {
       _error = e.toString();

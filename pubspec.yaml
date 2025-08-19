@@ -36,7 +36,7 @@ dependencies:
   # Camera & Image Processing
   camera: ^0.10.5+5
   image_picker: ^1.0.4
-  google_mlkit_text_recognition: ^0.10.0
+  # google_mlkit_text_recognition: ^0.10.0  # Temporarily disabled due to build issues
   
   # Permissions
   permission_handler: ^11.0.1

@@ -4,7 +4,6 @@ import '../controllers/translation_controller.dart';
 import '../controllers/dictionary_controller.dart';
 import '../controllers/audio_controller.dart';
 import '../controllers/settings_controller.dart';
-import '../utils/app_theme.dart';
 import 'translation_view.dart';
 import 'dictionary_view.dart';
 import 'flashcards_view.dart';

@@ -1,0 +1,46 @@
+[
+  {
+    "id": "med_001",
+    "englishTerm": "Heart",
+    "sinhalaTerm": "හෘදය",
+    "tamilTerm": "இதயம்",
+    "definition": "The muscular organ that pumps blood through the body",
+    "pronunciation": "hahrt",
+    "category": "medicine",
+    "synonyms": ["cardiac muscle"],
+    "examples": ["The heart beats approximately 100,000 times per day"]
+  },
+  {
+    "id": "med_002",
+    "englishTerm": "Blood Pressure",
+    "sinhalaTerm": "රුධිර පීඩනය",
+    "tamilTerm": "இரத்த அழுத்தம்",
+    "definition": "The pressure of blood against the walls of arteries",
+    "pronunciation": "bluhd presh-er",
+    "category": "medicine",
+    "synonyms": ["arterial pressure"],
+    "examples": ["Normal blood pressure is around 120/80 mmHg"]
+  },
+  {
+    "id": "eng_001",
+    "englishTerm": "Circuit",
+    "sinhalaTerm": "පරිපථය",
+    "tamilTerm": "மின்சுற்று",
+    "definition": "A closed loop through which electric current flows",
+    "pronunciation": "ser-kit",
+    "category": "engineering",
+    "synonyms": ["electrical loop"],
+    "examples": ["The circuit board contains multiple electronic components"]
+  },
+  {
+    "id": "law_001",
+    "englishTerm": "Contract",
+    "sinhalaTerm": "කොන්ත්‍රාත්තුව",
+    "tamilTerm": "ஒப்பந்தம்",
+    "definition": "A legally binding agreement between two or more parties",
+    "pronunciation": "kon-trakt",
+    "category": "law",
+    "synonyms": ["agreement", "accord"],
+    "examples": ["They signed a contract for the sale of the property"]
+  }
+]

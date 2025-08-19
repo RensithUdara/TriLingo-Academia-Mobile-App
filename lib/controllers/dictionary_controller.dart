@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import '../models/dictionary_model.dart';
+import '../models/translation_model.dart';
 import '../services/database_service.dart';
 
 class DictionaryController extends ChangeNotifier {

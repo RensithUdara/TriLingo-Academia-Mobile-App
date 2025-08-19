@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
-import 'package:google_fonts/google_fonts.dart';
 import 'controllers/translation_controller.dart';
 import 'controllers/dictionary_controller.dart';
 import 'controllers/audio_controller.dart';
